@@ -1,0 +1,7 @@
+import platform
+sistema = platform.system()
+print("""pkg install php""" + sistema)
+print("""pkg install openssh""" + sistema)
+print("""pkg install python""" + sistema)
+print("""pkg install python2""" + sistema)
+print("""pkg install nano""" + sistema)
